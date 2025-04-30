@@ -37,6 +37,8 @@ import Recently_addeditems from './components/Recently_addeditems';
 import AboutPage from './components/about_page';
 import PaymentPage from './components/Payment_page';
 import Video from './components/Vedio';
+import Review from './components/Reviews';
+import Reviews from './components/Reviews';
 
 function App() {
   return (
@@ -46,8 +48,8 @@ function App() {
     <Router>
       {/* Always show Hero on the home page */}
       <Routes>
-      <Route path="/" element={<><Navbar/><Hero /><Video /><Home /><Beforeorder /><Services/><AppD/></>} /> {/* Default route */}
-      <Route path="/hero" element={<><Navbar/><Hero /><Video /><Home /><Beforeorder /><Services/><AppD/></>} /> {/* Default route */}
+      <Route path="/" element={<><Navbar/><Hero /><Video /><Home /><Beforeorder /><Services/><Reviews/><AppD/></>} /> {/* Default route */}
+      <Route path="/hero" element={<><Navbar/><Hero /><Video /><Home /><Beforeorder /><Services/><Reviews/><AppD/></>} /> {/* Default route */}
         <Route path="/Loginn" element={<><Navbar/><Loginn /></>} /> {/* Login route */}
         <Route path="/Singupp" element={<><Navbar/><Signupp /></>} /> {/* Signup route */}
         <Route path="/team" element={<><Navbar/><Team /><Services/></>} /> {/* Example route for Team */}
@@ -80,6 +82,7 @@ function App() {
         <Route path='/payment' element={<><Navbar/><PaymentPage/></>}/>
         <Route path='/before' element={<><Navbar/><Beforeorder/></>}/>
         <Route path='/vedio' element={<><Navbar/><Video/></>}/>
+        <Route path='/review' element={<><Navbar/><Reviews/></>}/>
       </Routes>
       <Footer/>
     </Router>

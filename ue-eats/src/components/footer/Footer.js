@@ -79,10 +79,10 @@ function Footer() {
           {/* Company Info */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-              Nexa<span className="font-light">Digital</span>
+              Uni<span className="font-light">Eats</span>
             </h3>
             <p className="text-gray-300 leading-relaxed">
-              We create digital experiences that transform businesses and exceed expectations.
+              We are providing the quality food item to the students
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-gray-700 hover:bg-blue-600 p-3 rounded-full transition-all duration-300 transform hover:-translate-y-1">
@@ -132,20 +132,24 @@ function Footer() {
               <div className="flex items-start">
                 <MdLocationOn className="text-blue-400 text-xl mt-1 mr-3 flex-shrink-0" />
                 <p className="text-gray-300">
-                  123 Tech Park Avenue<br />
-                  San Francisco, CA 94107
+                  University of Education Lahore<br />
+                  Attock Campus
                 </p>
               </div>
               <div className="flex items-center">
                 <MdEmail className="text-blue-400 text-xl mr-3" />
                 <a href="mailto:hello@nexadigital.com" className="text-gray-300 hover:text-white transition-colors duration-300">
-                  hello@nexadigital.com
+                  anaastanooli@gmail.com<br/>
+                  awaiskhan@gmail.com<br/>
+                  junaid@gmail.com
                 </a>
               </div>
               <div className="flex items-center">
                 <MdPhone className="text-blue-400 text-xl mr-3" />
                 <a href="tel:+11234567890" className="text-gray-300 hover:text-white transition-colors duration-300">
-                  +1 (123) 456-7890
+                  +92 3145866629<br/>
+                  +92 320 5665465<br/>
+                  +92 308 9174041
                 </a>
               </div>
             </div>
@@ -153,9 +157,10 @@ function Footer() {
 
           {/* Newsletter */}
           <div className="space-y-6">
-            <h4 className="text-xl font-semibold text-white">Newsletter</h4>
+            <h4 className="text-xl font-semibold text-white">Uni Eats</h4>
             <p className="text-gray-300">
-              Subscribe to our newsletter for the latest updates and offers.
+              
+            Get In Touch With Uni Eats to Stay Updated
             </p>
             <form className="space-y-3">
               <input 
