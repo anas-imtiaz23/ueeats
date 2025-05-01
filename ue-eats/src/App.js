@@ -39,6 +39,7 @@ import PaymentPage from './components/Payment_page';
 import Video from './components/Vedio';
 import Review from './components/Reviews';
 import Reviews from './components/Reviews';
+import Thanks from './components/Thanks';
 
 function App() {
   return (
@@ -83,6 +84,7 @@ function App() {
         <Route path='/before' element={<><Navbar/><Beforeorder/></>}/>
         <Route path='/vedio' element={<><Navbar/><Video/></>}/>
         <Route path='/review' element={<><Navbar/><Reviews/></>}/>
+        <Route path='/thanks' element={<><Navbar/><Thanks/></>}/>
       </Routes>
       <Footer/>
     </Router>

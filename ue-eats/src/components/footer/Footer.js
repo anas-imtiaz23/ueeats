@@ -79,7 +79,7 @@ function Footer() {
           {/* Company Info */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-              Uni<span className="font-light">Eats</span>
+              UE<span className="font-light">Eats</span>
             </h3>
             <p className="text-gray-300 leading-relaxed">
               We are providing the quality food item to the students
@@ -157,7 +157,7 @@ function Footer() {
 
           {/* Newsletter */}
           <div className="space-y-6">
-            <h4 className="text-xl font-semibold text-white">Uni Eats</h4>
+            <h4 className="text-xl font-semibold text-white">UE Eats</h4>
             <p className="text-gray-300">
               
             Get In Touch With Uni Eats to Stay Updated

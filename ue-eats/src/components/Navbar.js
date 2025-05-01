@@ -327,7 +327,7 @@ const Navbar = () => {
           <div className="flex-shrink-0 flex items-center space-x-3">
             <img src={logo} alt="UNI EATS Logo" className="h-10 w-10 rounded-full object-cover border-2 border-white/20" />
             <span className="text-white font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-              UNI EATS
+              UE EATS
             </span>
           </div>
 
